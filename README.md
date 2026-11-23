@@ -5,8 +5,11 @@
 - **Triggers revenge when a bot is overtaken.** If a local AI loses position to another car, it can get a temporary boost to `RevengeStrength` / `RevengeAggr` for `RevengeCooldown` seconds, then go back to normal.
 - It makes [TAB] car labels look like '1.Name Strength,Aggression'
 
+## Install `rf2_puppeteer.dll` to `rFactor 2\Bin64\Plugins\`
+
 ## Key settings in CustomPluginVariables.JSON
 Setting Default Meaning
+
 `StrengthFirst` / `StrengthLast` 95 / 120 AI strength range across the grid
 
 `AggrFirst` / `AggrLast` 20 / 40 AI aggression range across the grid
@@ -19,5 +22,3 @@ RevengeStrength/RevengeAggr 120 / 120 Temporary revenge boost
 
 `RevengeBots` 5 Max revenging bots at once
 
-
-install `rf2_puppeteer.dll` to `rFactor 2\Bin64\Plugins\`
