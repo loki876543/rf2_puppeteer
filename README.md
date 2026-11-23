@@ -1,4 +1,4 @@
-`rf2_puppeteer` is an rFactor 2 plugin that changes original behavior and lets bots have different ai level and agression. It spreads your chosen strength/aggression range across the grid, and it can give them a little revenge boost when they get overtaken.
+`rf2_puppeteer` is an rFactor 2 plugin that changes original behavior and lets bots have different ai level and agression. It spreads your chosen strength/aggression range across the grid, and it can give bots a little revenge boost when they get overtaken.
 
 ## What it does
 - **Sets AI strength and aggression at session start.** Bots are assigned values across the grid: first car gets `StrengthFirst/AggrFirst`, last car gets `StrengthLast/AggrLast`, and everyone in between gets interpolated values.
