@@ -3,7 +3,7 @@
 ## What it does
 - **Sets AI strength and aggression at session start.** Bots are assigned values across the grid: first car gets `StrengthFirst/AggrFirst`, last car gets `StrengthLast/AggrLast`, and everyone in between gets interpolated values.
 - **Triggers revenge when a bot is overtaken.** If a local AI loses position to another car, it can get a temporary boost to `RevengeStrength` / `RevengeAggr` for `RevengeCooldown` seconds, then go back to normal.
-- **It makes [TAB] car labels look like '1.Name Strength,Aggression'
+- It makes [TAB] car labels look like '1.Name Strength,Aggression'
 
 ## Key settings in CustomPluginVariables.JSON
 Setting Default Meaning
