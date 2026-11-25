@@ -1,4 +1,4 @@
-`rf2_puppeteer` is an rFactor 2 plugin that changes original behavior and lets bots have different ai level and agression. It spreads your chosen strength/aggression range across the grid, and it can give bots a little revenge boost when they get overtaken.
+`rf2_puppeteer` is an rFactor 2 plugin that changes original behavior and lets bots have different ai level and agression. It spreads your chosen strength/aggression range across the grid, and it can give bots a little revenge boost when they get overtaken. It changes rf2 variables directly in game memory, so it is bind to last version of rfactor2.exe 
 
 ## What it does
 - **Sets AI strength and aggression at session start.** Bots are assigned values across the grid: first car gets `StrengthFirst/AggrFirst`, last car gets `StrengthLast/AggrLast`, and everyone in between gets interpolated values.
@@ -8,17 +8,13 @@
 ## Install `rf2_puppeteer.dll` to `rFactor 2\Bin64\Plugins\`
 
 ## Key settings in CustomPluginVariables.JSON
-Setting Default Meaning
+Setting                                     Default           Meaning
+`StrengthFirst`/`StrengthLast`               95/120           AI strength range across the grid
+`AggrFirst`/`AggrLast`                       20/40            AI aggression range across the grid
+`Revenge`                                    120              Master revenge switch/value (`0` disables)
+RevengeStrength/RevengeAggr                  120/120          Temporary revenge boost
+`RevengeCooldown`                            60               Revenge duration, seconds
+`RevengeBots`                                5                Max revenging bots at once
 
-`StrengthFirst` / `StrengthLast` 95 / 120 AI strength range across the grid
-
-`AggrFirst` / `AggrLast` 20 / 40 AI aggression range across the grid
-
-`Revenge` 120 Master revenge switch/value (`0` disables)
-
-RevengeStrength/RevengeAggr 120 / 120 Temporary revenge boost
-
-`RevengeCooldown` 60 Revenge duration, seconds
-
-`RevengeBots` 5 Max revenging bots at once
-
+## Plans:
+- more dynamic bot management—for example, increasing frequency of 'AI Mistakes' and malfunctions when you’ve fallen behind them
