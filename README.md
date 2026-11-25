@@ -9,11 +9,17 @@
 
 ## Key settings in CustomPluginVariables.JSON
 Setting                                     Default           Meaning
+
 `StrengthFirst`/`StrengthLast`               95/120           AI strength range across the grid
+
 `AggrFirst`/`AggrLast`                       20/40            AI aggression range across the grid
+
 `Revenge`                                    120              Master revenge switch/value (`0` disables)
+
 RevengeStrength/RevengeAggr                  120/120          Temporary revenge boost
+
 `RevengeCooldown`                            60               Revenge duration, seconds
+
 `RevengeBots`                                5                Max revenging bots at once
 
 ## Plans:
