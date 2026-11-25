@@ -22,5 +22,6 @@ RevengeStrength/RevengeAggr                  120/120          Temporary revenge 
 
 `RevengeBots`                                5                Max revenging bots at once
 
-## Plans:
-- more dynamic bot management—for example, increasing frequency of 'AI Mistakes' and malfunctions when you’ve fallen behind them
+Mistakes         1      bot malfunctions when you’re last and alone, 2 doubles it
+
+## Plans: no
